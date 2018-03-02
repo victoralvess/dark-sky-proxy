@@ -9,14 +9,9 @@ Below is excerption from [faq section](https://darksky.net/dev/docs/faq#cross-or
 > Then you can provide forecasts to your clients without exposing your API key.
 
 ## HOW TO USE
-1. fork it
+1. Fork it
 2. `git clone` to your machine
 3. `yarn install`
-4. register at https://darksky.net/dev/ to get you api key
-5. change `.env.exampe` to `.env` and put you api key as value to `API_KEY`. 
-6. run it locally with `yarn start` before your weather app
-7. deploy your proxy-server to [heroku](https://heroku.com) or 
-[now](https://zeit.co/now) when your weather app is ready for production
-(you need to run proxy-server live in internet in order for your weather app to work in production)
-
-
+4. Register at https://darksky.net/dev/ to get you api key
+5. Change `.env.exampe` to `.env` and put you api key as value to `API_KEY`. 
+6. Run it locally with `yarn start` before your weather app

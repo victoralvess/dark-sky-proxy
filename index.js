@@ -37,14 +37,14 @@ app.get('/', (req, res) => {
 const forecast = new DarkSky(process.env.API_KEY)
 
 app.get('/api/v1/json', limiter, (req, res) => {
-  const { lat, lon, units } = req.query
+  const { lat, lng, units } = req.query
 
   forecast
     .latitude(lat)
-    .longitude(lon)
+    .longitude(lng)
     .units(units)
     .language('en')
-    .exclude('minutely,hourly,daily,alerts,flags')
+    .exclude('minutely,hourly,alerts,flags')
     .get()
     .then(weather => res.status(200).json(weather))
     .catch(error => res.send(error))

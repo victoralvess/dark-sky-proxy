@@ -3,31 +3,24 @@
   "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
-  "engines": {
-    "node": ">=5.0 <8",
-    "npm": ">=3.0 <4"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dagman/dark-sky-proxy"
+    "url": "https://github.com/victoralvess/dark-sky-proxy"
   },
-  "author": "Islam Ibakaev <islamibakaev@gmail.com> (https://github.com/dagman)",
-  "bugs": {
-    "url": "https://github.com/dagman/dark-sky-proxy/issues"
-  },
-  "homepage": "https://github.com/dagman/dark-sky-proxy",
+  "author": "Victor Alves <vsilva.programador@gmail.com> (https://github.com/victoralvess)",
+  "homepage": "https://github.com/victoralvess/dark-sky-proxy",
   "scripts": {
     "start": "nodemon index.js"
   },
   "dependencies": {
-    "cors": "^2.8.3",
+    "cors": "^2.8.4",
     "dark-sky": "^1.0.10",
-    "dotenv": "^4.0.0",
+    "dotenv": "^5.0.1",
     "express": "^4.15.3",
     "express-rate-limit": "^2.8.0",
     "serve-favicon": "^2.4.3"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.17.1"
   }
 }
